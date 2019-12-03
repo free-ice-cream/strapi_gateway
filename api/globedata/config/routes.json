@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/globeData",
+      "handler": "GlobeData.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/globeData/count",
+      "handler": "GlobeData.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/globeData/:id",
+      "handler": "GlobeData.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/globeData",
+      "handler": "GlobeData.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/globeData/:id",
+      "handler": "GlobeData.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/globeData/:id",
+      "handler": "GlobeData.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

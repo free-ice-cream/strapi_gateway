@@ -1,0 +1,45 @@
+{
+  "connection": "default",
+  "collectionName": "webappcontents",
+  "info": {
+    "name": "webappcontent",
+    "description": "content for the web app"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "pagetitle": {
+      "type": "text"
+    },
+    "buttontext": {
+      "type": "text"
+    },
+    "congratulation": {
+      "type": "text"
+    },
+    "generalproject": {
+      "type": "text"
+    },
+    "scanninginstructions": {
+      "type": "text"
+    },
+    "generalheaing": {
+      "type": "text"
+    },
+    "scanningheading": {
+      "type": "text"
+    },
+    "congratulationheading": {
+      "type": "text"
+    },
+    "language": {
+      "type": "text"
+    }
+  }
+}

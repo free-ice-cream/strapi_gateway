@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/webappcontents",
+      "handler": "Webappcontent.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/webappcontents/count",
+      "handler": "Webappcontent.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/webappcontents/:id",
+      "handler": "Webappcontent.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/webappcontents",
+      "handler": "Webappcontent.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/webappcontents/:id",
+      "handler": "Webappcontent.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/webappcontents/:id",
+      "handler": "Webappcontent.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
